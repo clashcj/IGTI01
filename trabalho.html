@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="display: flex; margin-top: 30px">
+      <div style="width: 5%">(R) Vermelho:</div>
+      <div>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="sliderVermelho"
+        />
+      </div>
+      <div>
+        <input
+          id="inputVermelho"
+          class="inputs"
+          type="text"
+          size="10"
+          style="margin-left: 20px"
+        />
+      </div>
+    </div>
+
+    <div style="display: flex">
+      <div style="width: 5%">(G) Verde:</div>
+      <div>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="sliderVerde"
+        />
+      </div>
+      <div>
+        <input
+          id="inputVerde"
+          class="inputs"
+          type="text"
+          size="10"
+          style="margin-left: 20px"
+        />
+      </div>
+    </div>
+
+    <div style="display: flex">
+      <div style="width: 5%">(B) Azul:</div>
+      <div>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="sliderAzul"
+        />
+      </div>
+      <div>
+        <input
+          id="inputAzul"
+          class="inputs"
+          type="text"
+          size="10"
+          style="margin-left: 20px"
+        />
+      </div>
+    </div>
+  </body>
+
+  <div id="retangulo" style="height: 50px; width: 50px"></div>
+  <script src="./js/script.js"></script>
+</html>
